@@ -1,0 +1,469 @@
+body {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+.btn-light {
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.08);
+    border-radius: 70px;
+}
+
+.header-text {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.875em;
+    line-height: 1.25em;
+    align-items: center;
+    letter-spacing: 0.03125em;
+    color: #9093A6;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.btn-remove {
+    font-size: small;
+    line-height: 1;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    padding: 0px;
+}
+
+h1 {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 4.5em;
+    line-height: 82px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.135em;
+}
+
+h2 {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.25em;
+    color: #3F4255;
+}
+
+.slatkisi-list-title {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 32px;
+    font-size: 1.5em;
+    color: #000000;
+}
+
+.slatkisi-list-amount-input {
+    margin-left: 0.813rem;
+    width: 37px;
+    height: 29px;
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+}
+
+.cart-title {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: #000000;
+}
+
+#ViewCart {
+    z-index: 2;
+}
+
+.cart-label {
+    cursor: pointer;
+}
+
+.cart hr {
+    border: 1px solid #F2F4FA;
+}
+
+.cart .items-list {
+    background-color: #fff;
+    padding: 24px 24px 24px 23px;
+    width: 360px;
+    box-shadow: 1px 3px 7px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    right: 5px;
+}
+
+.cart-list-item-text {
+    margin: 0;
+    font-weight: 300;
+    font-size: 0.75em;
+    line-height: 20px;
+    color: #000000;
+}
+
+.cart-list-item-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875em;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: #000000;
+}
+
+.cart-detail-list-item-text {
+    margin: 0;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 20px;
+    color: #000000;
+}
+
+.cart-detail-list-item-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2em;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: #000000;
+}
+
+.cart-delete-button {
+    position: relative;
+    cursor: pointer;
+}
+
+.cart-inner-image {
+    position: absolute;
+    margin-top: -40%;
+    margin-left: 10%;
+}
+
+.banner-prime-text {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #3F4255;
+}
+
+.btn-tertiary {
+    background: #FFFFFF;
+    border: 1px solid #B22234;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.125em;
+    line-height: 1.125em;
+    letter-spacing: 0.03125em;
+    color: #3F4255;
+}
+
+.button-text {
+    display: block;
+}
+
+.btn-tertiary:hover {
+    background: #B22234;
+    border: 1px solid #B22234;
+}
+
+.delivery {
+    margin-top: 5rem;
+    color: #3F4255;
+    font-size: 1em;
+    line-height: 1.25em;
+}
+
+.badge-value {
+    background-color: rgba(0, 0, 0, 0);
+    position: relative;
+    border: 1px solid darkred;
+    height: 126px;
+    width: 126px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.badge-value::after {
+    content: "";
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 20%;
+    background: #B22234;
+    position: absolute;
+    z-index: -1;
+}
+
+.badge-label {
+    text-align: center;
+}
+
+.btn-secondary {
+    background: #F2F4FA;
+    color: #9093A6;
+    padding: 14px 26px;
+    border-radius: 4px;
+    border-width: 0;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.125em;
+    line-height: 1.25em;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.btn-secondary:hover {
+    background: #D4D7E6;
+    color: #3F4255;
+    border-radius: 4px;
+    border: 0;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.125em;
+    line-height: 1.25em;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.btn-secondary-thin {
+    padding: 11px 24px;
+}
+
+.btn-primary {
+    padding: 26px 24px;
+    background: #B22234;
+    border-radius: 4px;
+    border: 0;
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.125em;
+    line-height: 1.125em;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.btn-primary:hover {
+    background: #FFF7CC;
+    color: darkred;
+}
+
+.btn-primary-thin {
+    padding: 11px 24px;
+}
+
+.btn-primary:disabled {
+    background: #E5E5E5;
+    color: #9093A6;
+}
+
+.partner {
+    background: #F2F4FA;
+}
+
+.form-control {
+    padding: 24px 48px 24px 16px;
+    background: #FFFFFF;
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
+    border-width: 0;
+}
+
+.features {
+    background: #F2F4FA;
+}
+
+.slatkisi-image {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.slatkisi-image::after {
+    content: "";
+    border-radius: 50%;
+    width: 102%;
+    height: 102%;
+    left: -5%;
+    top: 5%;
+    background: #B22234;
+    position: absolute;
+    z-index: -1;
+}
+
+@media (min-width: 576px) {
+    .slatkisi-image::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        z-index: 1;
+        background-size: 100% 100%;
+        background: url('../images/slatkis.jpg') no-repeat;
+        transform: rotate(5.71deg);
+    }
+}
+
+@media (min-width: 768px) {
+    .slatkisi-image::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        z-index: 1;
+        background-size: 100% 100%;
+        background: url('../images/slatkis.jpg') no-repeat;
+        transform: rotate(5.71deg);
+    }
+}
+
+@media (min-width: 1200px) {
+    .slatkisi-image::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        z-index: 1;
+        background-size: 100% 100%;
+        background: url('../images/slatkis.jpg') no-repeat;
+        transform: rotate(5.71deg);
+    }
+}
+
+.list-group-item {
+    background-color: transparent;
+    border: none;
+}
+
+.new-products-list {
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+
+.new-products-list::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+.new-products-list::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.new-products-list::-webkit-scrollbar-thumb {
+    background: #B22234;
+}
+
+.new-products-list::-webkit-scrollbar-thumb:hover {
+    background: darkred;
+}
+
+#contactForm input {
+    margin-left: 0.813rem;
+    width: 100%;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+#contactForm label {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    margin-top: 2rem;
+    font-weight: bold;
+    line-height: 32px;
+    font-size: 1em;
+    color: #000000;
+}
+
+#contactForm select {
+    margin-left: 0.813rem;
+    width: 100%;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+#contactForm textarea {
+    margin-left: 0.813rem;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+
+/*admin.php*/
+
+.login-input {
+    margin-left: 0.813rem;
+    width: 100%;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.login-label {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 32px;
+    font-size: 1em;
+    color: #000000;
+}
+
+.loginContainer {
+    border: 1px solid #B5B5B5;
+    width: 50%;
+    box-sizing: border-box;
+    border-radius: 18px;
+    padding: 50px;
+}
