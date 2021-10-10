@@ -2,7 +2,7 @@
 Web application with a client and admin section that represents the American candy web store.
 
 ## About
-Web application which lets admin user to create, delete and modify products and the customer user to add the products to the cart and eventually buy them. Costumer can also make contact request to admin. Admin has overview over all orders, contact messages and current products in store. 
+Application lets admin user to create, delete and modify products and the customer user to add the products to the cart and eventually buy them. Costumer can also make contact request to admin. Admin has overview over all orders, contact messages and current products in store. 
 Application is created in collaboration with two fellow developers.
 
 ## Features
